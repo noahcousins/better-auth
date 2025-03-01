@@ -24,7 +24,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 				<link rel="icon" href="/favicon/favicon.ico" sizes="any" />
 			</head>
 			<body
-				className={`${GeistSans.variable} ${GeistMono.variable} font-sans relative`}
+				className={`${GeistSans.variable} ${GeistMono.variable} font-sans relative overscroll-y-none`}
 			>
 				<RootProvider
 					theme={{
